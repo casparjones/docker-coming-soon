@@ -79,4 +79,3 @@ fi;
 sed -i "s~ENV_EMAIL_BUTTON~$EMAIL_BUTTON~" "$BASE_DIR/index.html"
 
 echo "Starting Nginx ..."
-nginx -g "daemon off;"
