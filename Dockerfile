@@ -1,8 +1,11 @@
-FROM nginx
+FROM pierrezemb/gostatic
+COPY src /srv/http
 
-ENV BASE_DIR /usr/share/nginx/html
+# FROM pierrezemb/gostatic
 
-ADD src/ /usr/share/nginx/html
-ADD update_page_and_run_nginx /usr/local/bin/
+# ENV BASE_DIR /srv/http
 
-CMD 'update_page_and_run_nginx'
+# COPY src/ /srv/http
+# COPY update_page /usr/local/bin/
+
+# CMD '/usr/local/bin/update_page'
