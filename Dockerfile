@@ -4,4 +4,4 @@ WORKDIR /
 COPY . /srv
 
 USER appuser
-CMD '/srv/update_page'
+ENTRYPOINT '/srv/update_page'
