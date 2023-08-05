@@ -6,12 +6,9 @@ RUN apk add bash
 
 COPY . /srv
 RUN ls /srv/http
-RUN touch .env
+RUN touch /srv/.env
 
-RUN ls /srv/http
-
-CMD ["/srv/bin/goTwig", "/srv/http", "index.html.twig", "index.html"]
-ENTRYPOINT ["/srv/bin/goStatic"]
+ENTRYPOINT ["/srv/goStatic"]
 # WORKDIR /
 # COPY . /srv
 
