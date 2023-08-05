@@ -1,4 +1,9 @@
 FROM alpine:3.18.2
+
+RUN apk update
+RUN apk upgrade
+RUN apk add bash
+
 COPY . /srv
 RUN ls /srv
 
