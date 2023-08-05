@@ -4,7 +4,7 @@ echo 'Updating the index.html file ...'
 echo ''
 
 # Update the index.html file
-./bin/goTwig src index.html.twig > src/index.html
+./bin/goTwig src index.html.twig index.html
 
 echo "Starting goStatic ..."
 cd src
