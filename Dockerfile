@@ -1,7 +1,6 @@
 FROM alpine:3.18.2
-
-RUN mkdir /srv
 COPY . /srv
+RUN ls /srv
 
 CMD ["/srv/bin/goTwig", "/srv/http", "index.html.twig", "index.html"]
 ENTRYPOINT ["/srv/bin/goStatic", "--port 8080"]
