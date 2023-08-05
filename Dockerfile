@@ -5,9 +5,11 @@ RUN apk upgrade
 RUN apk add bash
 
 COPY . /srv
-RUN ls /srv
+RUN ls /srv/http
 
 CMD ["/srv/bin/goTwig", "/srv/http", "index.html.twig", "index.html"]
+RUN ls /srv/http
+
 ENTRYPOINT ["/srv/bin/goStatic"]
 # WORKDIR /
 # COPY . /srv
