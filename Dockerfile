@@ -8,7 +8,7 @@ COPY . /srv
 RUN ls /srv
 
 CMD ["/srv/bin/goTwig", "/srv/http", "index.html.twig", "index.html"]
-ENTRYPOINT ["/srv/bin/goStatic", "-port 8080"]
+ENTRYPOINT ["/srv/bin/goStatic"]
 # WORKDIR /
 # COPY . /srv
 
