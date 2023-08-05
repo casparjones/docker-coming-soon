@@ -1,4 +1,4 @@
-FROM bash:latest
+FROM scratch
 
 WORKDIR /
 COPY . /srv
