@@ -1,6 +1,5 @@
 FROM alpine:3.4
 COPY . /srv
-USER appuser
 
 RUN ["/srv/bin/goTwig", "/srv/http", "index.html.twig", "index.html"]
 ENTRYPOINT ["/srv/bin/goStatic", "--port 8080"]
