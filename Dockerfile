@@ -1,11 +1,7 @@
-FROM bash
+FROM bash:latest
 
 WORKDIR /
-COPY /bin .
-
-COPY src /srv/http
-COPY update_page /
+COPY . /srv
 
 USER appuser
-
-CMD '/update_page'
+CMD '/srv/update_page'

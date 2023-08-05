@@ -1,44 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="94adc087-8a6d-4dcb-9223-1628ae2674c9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/goStatic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_page" beforeDir="false" afterPath="$PROJECT_DIR$/update_page" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
-  <component name="ComposerSettings">
-    <execution />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP7.3" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-    <option name="showMembers" value="true" />
-  </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/frank/www/docker-comming-soon/bin",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
   <component name="RunManager">
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -53,20 +24,5 @@
         <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="94adc087-8a6d-4dcb-9223-1628ae2674c9" name="Changes" comment="" />
-      <created>1691166500985</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1691166500985</updated>
-      <workItem from="1691166502022" duration="1898000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
 </project>
